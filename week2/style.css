@@ -1,0 +1,76 @@
+body{
+	font-family: Arial;
+	font-size: 100%;
+	padding: 15px;
+}
+body > h1{
+	
+	font-size: 175%;
+	text-align: center;
+	margin-bottom: 3%;
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+	
+section{
+	position: relative;
+	
+	border: 3px solid black;
+	width: 30%;
+	height: 30%;
+	margin: 15px;
+	padding: 35px 0px 0px 10px;
+	
+	background: gray;
+}
+section > h2{
+	position: absolute;
+	top: -1%;
+	left: 60.5%;
+	
+	width: 40%;
+	height: 15%;
+	border: 3px solid black;
+	
+	font-size: 125%;
+	text-align: center;	
+}
+.section1{
+	float: left;
+	margin-left: 10px;
+}
+.section2{
+	float: left;
+}
+.section3{
+	float: left;
+}
+.title1{
+	background: pink;
+}
+.title2{
+	background: red;
+	color: white;
+}
+.title3{
+	background: yellow;
+}
+
+@media (min-width: 992px){
+	p{
+		color: black;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	p{
+		color:blue;
+	}
+}
+@media (max-width: 767px){
+	p{
+		color: green;
+	}
+}
