@@ -1,7 +1,9 @@
 body{
 	font-family: Arial;
-	font-size: 100%;
-	padding: 15px;
+	font-size: 80%;
+	padding: 10px;
+	font-weight: bold;
+	align-content: center;
 }
 body > h1{
 	
@@ -11,8 +13,8 @@ body > h1{
 }
 *{
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 }
 	
 section{
@@ -20,19 +22,20 @@ section{
 	
 	border: 3px solid black;
 	width: 30%;
-	height: 30%;
+	height: 39%;
 	margin: 15px;
-	padding: 35px 0px 0px 10px;
+	padding: 35px 20px 15px 15px;
 	
 	background: gray;
+	text-align: justify;
 }
 section > h2{
 	position: absolute;
 	top: -1%;
-	left: 60.5%;
+	left: 60.9%;
 	
 	width: 40%;
-	height: 15%;
+	height: 16%;
 	border: 3px solid black;
 	
 	font-size: 125%;
@@ -60,17 +63,50 @@ section > h2{
 }
 
 @media (min-width: 992px){
-	p{
-		color: black;
-	}
 }
 @media (min-width: 768px) and (max-width: 991px){
-	p{
-		color:blue;
+	section{
+		width: 40%;
+		
+	}
+	.section3 > h2{
+		width: 19.9%;
+		left: 80.5%;
+	}
+	.section1{
+		margin-left: 8%;
+	}
+	.section3{
+		margin-left: 8%;
+		width: 84%;
 	}
 }
 @media (max-width: 767px){
-	p{
-		color: green;
+	body{
+		font-size: 65%;
+		padding: 5%;
+		align-content: center;
+	}
+	.section1{
+		margin-left: 10%;
+	}
+	section > h2{
+		text-align: center;
+		padding: 2px;
+		font-size: 135%;
+
+		height: 16%;
+		left:  63.6%;
+		width: 37%;
+		height: 17%;
+
+	}
+
+	section{
+		text-align: justify;
+		width: 80%;
+		height: 38.4%;
+		margin-left: 10%;
+
 	}
 }
